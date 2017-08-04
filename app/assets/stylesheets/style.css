@@ -4,12 +4,15 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style
-*	Edit this section
-*
-* ======================================================= */
+/* ======================================================= */
+
+.subtitle {
+  margin-bottom: 1em;
+}
+
+
+/* ======================================================= */
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
@@ -873,7 +876,7 @@ figure {
 }
 
 #fh5co-feature-product {
-  padding: 7em 0;
+  padding: 3em 0;
 }
 
 #fh5co-services, #fh5co-about, #fh5co-contact {
