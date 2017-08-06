@@ -279,7 +279,7 @@ figure {
 
 /* Superfish Override Menu */
 .sf-menu {
-  margin: 7px 0 0 0 !important;
+  margin: 0 0 10 0 !important;
 }
 
 .sf-menu {
@@ -397,20 +397,18 @@ figure {
   width: 100%;
 }
 
-#fh5co-logo {
+.fh5co-logo {
+  height:60px;
+  margin: 10px 0;
   position: relative;
   z-index: 2;
   font-size: 22px;
   text-transform: uppercase;
-  margin-top: 35px;
   font-weight: 700;
   float: left;
 }
-#fh5co-logo span {
-  font-weight: 700;
-}
 @media screen and (max-width: 768px) {
-  #fh5co-logo {
+  .fh5co-logo {
     width: 100%;
     float: none;
     text-align: center;
@@ -898,6 +896,10 @@ figure {
 
 #fh5co-feature-product {
   padding: 3em 0 0 0;
+  background-image: url(/assets/cover_conheca.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #fh5co-services, #fh5co-about, #fh5co-contact {
