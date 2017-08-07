@@ -4,6 +4,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.btn-doe {
+  background: #1eaa3b !important;
+  opacity: 1 !important;
+}
 /* ======================================================= */
 
 .subtitle {
@@ -33,7 +38,7 @@ h3, .doou {
 }
 
 .btn-footer {
-  background: #62A06F !important;
+  background: #b24747 !important;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -168,7 +173,8 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 800px;
+  height: 500px;
+  background-position: center;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
@@ -409,7 +415,6 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-logo {
-    width: 100%;
     float: none;
     text-align: center;
   }
@@ -896,10 +901,10 @@ figure {
 
 #fh5co-feature-product {
   padding: 3em 0 0 0;
-  background-image: url(/assets/cover_conheca.png);
+  background: #62A06F;
+  /*background-image: url(/assets/cover_conheca.jpg);*/
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 
 #fh5co-services, #fh5co-about, #fh5co-contact {
@@ -1166,7 +1171,9 @@ figure {
 }
 
 #footer {
-  background: #b24747;
+  background-image: url(/assets/cover_conheca.jpg);
+  background-position: center;
+  background-size: cover;
   padding: 60px 0 40px;
 }
 #footer p {
