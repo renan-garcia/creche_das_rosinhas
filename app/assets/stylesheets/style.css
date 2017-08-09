@@ -38,7 +38,7 @@ h3, .doou {
 }
 
 .btn-footer {
-  background: #b24747 !important;
+  background: #1eaa3b !important;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -404,7 +404,7 @@ figure {
 }
 
 .fh5co-logo {
-  height:60px;
+  height:50px;
   margin: 10px 0;
   position: relative;
   z-index: 2;
@@ -627,7 +627,21 @@ figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  min-height: 520px;
 }
+
+@media screen and (max-width: 992px) {
+  .services {
+      min-height: 650px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+      min-height: 200px;
+  }
+}
+
 .services:hover, .services:focus, .services:active {
   -webkit-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
@@ -711,6 +725,7 @@ figure {
 #fh5co-portfolio {
   padding: 3em 0;
   min-height: 500px;
+  background: #62A06F;
 }
 @media screen and (max-width: 768px) {
   #fh5co-portfolio {
@@ -902,7 +917,6 @@ figure {
 #fh5co-feature-product {
   padding: 3em 0 0 0;
   background: #62A06F;
-  /*background-image: url(/assets/cover_conheca.jpg);*/
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1010,8 +1024,9 @@ figure {
 .fh5co-testimonial, .fh5co-team {
   position: relative;
   background: #fff;
-  padding: 4em 0;
+  padding: 4em 1em;
   border-radius: 5px;
+  min-height: 462px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-testimonial, .fh5co-team {
@@ -1171,7 +1186,7 @@ figure {
 }
 
 #footer {
-  background-image: url(/assets/cover_conheca.jpg);
+  background-image: url(/assets/cover_footer.png);
   background-position: center;
   background-size: cover;
   padding: 60px 0 40px;
